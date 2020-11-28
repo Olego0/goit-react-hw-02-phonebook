@@ -1,0 +1,23 @@
+.wrapper {
+  border: 2px solid #ccc;
+  width: 25%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+.button {
+  margin-top: 20px;
+  width: 30%;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.button:active {
+  background-color: royalblue;
+}
+.input {
+  width: 40%;
+}
